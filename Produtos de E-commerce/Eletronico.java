@@ -5,6 +5,7 @@ class Eletronico extends Produto {
 
     @Override
     public double calcularPrecoFinal() {
-        return preco - (preco * 0.10); // 10% de desconto
+        return preco - (preco * 0.10);
     }
+
 }
