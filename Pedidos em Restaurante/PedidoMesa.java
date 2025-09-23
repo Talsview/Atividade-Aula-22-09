@@ -5,6 +5,7 @@ class PedidoMesa extends Pedido {
 
     @Override
     public double calcularValorFinal() {
-        return valor + (valor * 0.10); // 10% taxa de serviço
+        return valor + (valor * 0.10);
     }
+
 }
