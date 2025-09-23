@@ -5,6 +5,7 @@ class Alimento extends Produto {
 
     @Override
     public double calcularPrecoFinal() {
-        return preco; // sem desconto
+        return preco;
     }
+
 }
