@@ -5,6 +5,7 @@ class Roupas extends Produto {
 
     @Override
     public double calcularPrecoFinal() {
-        return preco - (preco * 0.15); // 15% de desconto
+        return preco - (preco * 0.15);
     }
+
 }
