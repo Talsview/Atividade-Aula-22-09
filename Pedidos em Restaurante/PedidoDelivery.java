@@ -5,6 +5,7 @@ class PedidoDelivery extends Pedido {
 
     @Override
     public double calcularValorFinal() {
-        return valor + (valor * 0.05); // 5% taxa de entrega
+        return valor + (valor * 0.05);
     }
+
 }
