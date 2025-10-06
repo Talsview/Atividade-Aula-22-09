@@ -6,9 +6,10 @@ public class Main {
 
         System.out.println("=== Produtos ===");
         p1.exibirProduto();
-        System.out.println("----------------");
+        System.out.println();
         p2.exibirProduto();
-        System.out.println("----------------");
+        System.out.println();
         p3.exibirProduto();
     }
+
 }
