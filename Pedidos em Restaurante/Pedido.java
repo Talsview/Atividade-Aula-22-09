@@ -1,5 +1,5 @@
 class Pedido {
-    protected double valor;
+    public double valor;
 
     public Pedido(double valor) {
         this.valor = valor;
@@ -12,4 +12,5 @@ class Pedido {
     public void exibirPedido() {
         System.out.println("Valor final do pedido: R$ " + calcularValorFinal());
     }
+
 }
