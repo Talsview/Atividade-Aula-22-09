@@ -1,6 +1,6 @@
 class Produto {
-    protected String nome;
-    protected double preco;
+    public String nome;
+    public double preco;
 
     public Produto(String nome, double preco) {
         this.nome = nome;
@@ -15,4 +15,5 @@ class Produto {
         System.out.println("Produto: " + nome);
         System.out.println("Preço final: R$ " + calcularPrecoFinal());
     }
+
 }
