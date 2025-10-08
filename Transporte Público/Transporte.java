@@ -1,5 +1,5 @@
 class Transporte {
-    protected double tarifaBase;
+    public double tarifaBase;
 
     public Transporte(double tarifaBase) {
         this.tarifaBase = tarifaBase;
@@ -12,4 +12,5 @@ class Transporte {
     public void exibirTarifa(double distancia) {
         System.out.println("Tarifa final: R$ " + calcularTarifa(distancia));
     }
+
 }
